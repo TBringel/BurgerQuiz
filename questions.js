@@ -240,51 +240,51 @@ const SEL_OU_POIVRE = {
   points: 1,
   series: [
     {
-      titre: "Pokémon ou médicament ?",
-      options: ["Pokémon", "Médicament"],
+      titre: "Marvel, DC, ou les deux ?",
+      options: ["Marvel", "DC", "Les deux"],
       items: [
-        { texte: "Qulbutoké",  reponse: 0, info: "Le gros Pokémon bleu qui renvoie les attaques." },
-        { texte: "Smecta",     reponse: 1, info: "Le célèbre pansement intestinal." },
-        { texte: "Saquedeneu", reponse: 0, info: "Une boule de lianes avec des yeux." },
-        { texte: "Spasfon",    reponse: 1, info: "Contre les douleurs de ventre." },
-        { texte: "Débridat",   reponse: 1, info: "Contre les troubles digestifs." },
-        { texte: "Lippoutou",  reponse: 0, info: "Un Pokémon chanteur aux grosses lèvres." },
-        { texte: "Gaviscon",   reponse: 1, info: "Contre les brûlures d'estomac." },
-        { texte: "Grotadmorv", reponse: 0, info: "Littéralement un gros tas de boue toxique." },
-        { texte: "Lysopaïne",  reponse: 1, info: "Des pastilles pour la gorge." },
-        { texte: "Excelangue", reponse: 0, info: "Le Pokémon à la langue géante." }
+        { texte: "Black Manta",     reponse: 1, info: "L'ennemi juré d'Aquaman, avec son énorme casque." },
+        { texte: "Captain Marvel",  reponse: 2, info: "Chez Marvel, c'est Carol Danvers. Chez DC, c'était le nom d'origine de Shazam ! DC a fini par le renommer pour éviter la confusion." },
+        { texte: "Black Widow",     reponse: 0, info: "Natasha Romanoff, membre des Avengers." },
+        { texte: "Sandman",         reponse: 2, info: "Chez Marvel, l'homme de sable ennemi de Spider-Man. Chez DC, le Maître des rêves de Neil Gaiman, adapté en série sur Netflix." },
+        { texte: "Black Adam",      reponse: 1, info: "L'anti-héros joué par Dwayne Johnson au cinéma." },
+        { texte: "Black Bolt",      reponse: 0, info: "Le roi des Inhumains : s'il parle, il détruit tout." },
+        { texte: "Arès",            reponse: 2, info: "Le dieu grec de la guerre est chez les deux : ennemi de Wonder Woman chez DC, et même membre des Avengers chez Marvel." },
+        { texte: "Black Lightning", reponse: 1, info: "Un héros électrique qui a eu sa propre série télé." },
+        { texte: "Black Cat",       reponse: 0, info: "Félicia Hardy, la cambrioleuse qui fait craquer Spider-Man." },
+        { texte: "Black Canary",    reponse: 1, info: "L'héroïne au cri supersonique, alliée de Green Arrow." }
       ]
     },
     {
-      titre: "Personnage de Star Wars ou fromage ?",
-      options: ["Star Wars", "Fromage"],
+      titre: "Jeu vidéo, film, ou les deux ?",
+      options: ["Jeu vidéo", "Film", "Les deux"],
       items: [
-        { texte: "Picodon",   reponse: 1, info: "Petit chèvre de l'Ardèche et de la Drôme." },
-        { texte: "Bossk",     reponse: 0, info: "Chasseur de primes reptilien de L'Empire contre-attaque." },
-        { texte: "Pélardon",  reponse: 1, info: "Petit chèvre des Cévennes." },
-        { texte: "Sebulba",   reponse: 0, info: "Le pilote de course tricheur de La Menace fantôme." },
-        { texte: "Bethmale",  reponse: 1, info: "Tomme de l'Ariège." },
-        { texte: "Nien Nunb", reponse: 0, info: "Le copilote de Lando dans Le Retour du Jedi." },
-        { texte: "Chaource",  reponse: 1, info: "Fromage à pâte molle de l'Aube." },
-        { texte: "Dengar",    reponse: 0, info: "Un autre chasseur de primes de L'Empire contre-attaque." },
-        { texte: "Salers",    reponse: 1, info: "Fromage d'Auvergne (et race de vache)." },
-        { texte: "Lobot",     reponse: 0, info: "L'assistant chauve de Lando à la Cité des Nuages." }
+        { texte: "Rampage",           reponse: 2, info: "Un jeu d'arcade de 1986… et un film de 2018 avec Dwayne Johnson et un gorille géant." },
+        { texte: "Fortnite",          reponse: 0, info: "Pas de film (pour l'instant)." },
+        { texte: "Intouchables",      reponse: 1, info: "Pas de jeu vidéo… heureusement." },
+        { texte: "Tetris",            reponse: 2, info: "Un film de 2023 raconte comment le jeu est sorti d'URSS." },
+        { texte: "Fall Guys",         reponse: 0, info: "Juste le jeu des petits haricots qui tombent partout." },
+        { texte: "Le Dîner de cons",  reponse: 1, info: "Juste le film culte de Francis Veber." },
+        { texte: "Angry Birds",       reponse: 2, info: "Le film d'animation est sorti en 2016, et il a même eu une suite." },
+        { texte: "Stardew Valley",    reponse: 0, info: "Le jeu de ferme créé par une seule personne." },
+        { texte: "Inception",         reponse: 1, info: "Le film de Christopher Nolan n'a jamais eu de jeu vidéo." },
+        { texte: "Tron",              reponse: 2, info: "Le film et le jeu d'arcade sont sortis la même année, en 1982." }
       ]
     },
     {
-      titre: "Prénom d'un enfant de star ou meuble IKEA ?",
-      options: ["Enfant de star", "Meuble IKEA"],
+      titre: "Film Disney-Pixar, voiture, ou les deux ?",
+      options: ["Film Disney/Pixar", "Voiture", "Les deux"],
       items: [
-        { texte: "Kallax",          reponse: 1, info: "L'étagère à cases." },
-        { texte: "Apple",           reponse: 0, info: "Fille de Gwyneth Paltrow et Chris Martin (Coldplay)." },
-        { texte: "Pilot Inspektor", reponse: 0, info: "Fils de l'acteur Jason Lee." },
-        { texte: "Råskog",          reponse: 1, info: "La desserte à roulettes." },
-        { texte: "Kal-El",          reponse: 0, info: "Fils de Nicolas Cage. C'est le vrai nom de Superman." },
-        { texte: "Poäng",           reponse: 1, info: "Le fauteuil en bois courbé." },
-        { texte: "Moon Unit",       reponse: 0, info: "Fille du musicien Frank Zappa." },
-        { texte: "Klippan",         reponse: 1, info: "Le petit canapé." },
-        { texte: "X Æ A-12",        reponse: 0, info: "Fils d'Elon Musk et de la chanteuse Grimes." },
-        { texte: "Flisat",          reponse: 1, info: "La gamme de meubles en bois pour enfants." }
+        { texte: "Soul",    reponse: 2, info: "Le film Pixar de 2020… et la Kia Soul." },
+        { texte: "Mégane",  reponse: 1, info: "Chez Renault." },
+        { texte: "Coco",    reponse: 0, info: "Pixar, 2017." },
+        { texte: "Juke",    reponse: 1, info: "Chez Nissan." },
+        { texte: "Volt",    reponse: 2, info: "« Volt, star malgré lui », le Disney de 2008… et la Chevrolet Volt, une voiture hybride." },
+        { texte: "Vaiana",  reponse: 0, info: "Disney, 2016." },
+        { texte: "Kona",    reponse: 1, info: "Chez Hyundai." },
+        { texte: "Wall-E",  reponse: 0, info: "Pixar, 2008." },
+        { texte: "Picasso", reponse: 1, info: "La Citroën Xsara Picasso. Le peintre, lui, n'a pas de film Disney." },
+        { texte: "Luca",    reponse: 0, info: "Pixar, 2021." }
       ]
     }
   ]
