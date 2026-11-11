@@ -240,51 +240,51 @@ const SEL_OU_POIVRE = {
   points: 1,
   series: [
     {
-      titre: "Marvel, DC, ou les deux ?",
-      options: ["Marvel", "DC", "Les deux"],
+      titre: "Nicolas Cage, Johnny Depp, ou les deux ?",
+      options: ["Nicolas Cage", "Johnny Depp", "Les deux"],
       items: [
-        { texte: "Black Manta",     reponse: 1, info: "L'ennemi juré d'Aquaman, avec son énorme casque." },
-        { texte: "Captain Marvel",  reponse: 2, info: "Chez Marvel, c'est Carol Danvers. Chez DC, c'était le nom d'origine de Shazam ! DC a fini par le renommer pour éviter la confusion." },
-        { texte: "Black Widow",     reponse: 0, info: "Natasha Romanoff, membre des Avengers." },
-        { texte: "Sandman",         reponse: 2, info: "Chez Marvel, l'homme de sable ennemi de Spider-Man. Chez DC, le Maître des rêves de Neil Gaiman, adapté en série sur Netflix." },
-        { texte: "Black Adam",      reponse: 1, info: "L'anti-héros joué par Dwayne Johnson au cinéma." },
-        { texte: "Black Bolt",      reponse: 0, info: "Le roi des Inhumains : s'il parle, il détruit tout." },
-        { texte: "Arès",            reponse: 2, info: "Le dieu grec de la guerre est chez les deux : ennemi de Wonder Woman chez DC, et même membre des Avengers chez Marvel." },
-        { texte: "Black Lightning", reponse: 1, info: "Un héros électrique qui a eu sa propre série télé." },
-        { texte: "Black Cat",       reponse: 0, info: "Félicia Hardy, la cambrioleuse qui fait craquer Spider-Man." },
-        { texte: "Black Canary",    reponse: 1, info: "L'héroïne au cri supersonique, alliée de Green Arrow." }
+        { texte: "A acheté un crâne de dinosaure",                reponse: 0, info: "Un crâne de tyrannosaure acheté aux enchères… qui s'est révélé volé en Mongolie. Il a dû le rendre." },
+        { texte: "A acheté un village entier dans le Var",        reponse: 1, info: "Un hameau à Plan-de-la-Tour, où il a vécu avec Vanessa Paradis." },
+        { texte: "A acheté une île aux Bahamas",                  reponse: 2, info: "Johnny Depp a la sienne depuis 2004. Nicolas Cage en a acheté une aussi, deux ans plus tard." },
+        { texte: "S'est fait construire une tombe en forme de pyramide", reponse: 0, info: "Une pyramide blanche de 3 mètres dans un cimetière de La Nouvelle-Orléans. Il est toujours vivant." },
+        { texte: "A fait tirer les cendres d'un ami avec un canon", reponse: 1, info: "Celles de l'écrivain Hunter S. Thompson, en 2005. C'était la dernière volonté de son ami." },
+        { texte: "A joué un vampire",                             reponse: 2, info: "Cage a joué Dracula dans Renfield. Depp était le vampire Barnabas Collins dans Dark Shadows." },
+        { texte: "A gagné l'Oscar du meilleur acteur",            reponse: 0, info: "En 1996, pour Leaving Las Vegas. Johnny Depp a été nommé trois fois, sans jamais gagner." },
+        { texte: "A joué un sorcier",                             reponse: 2, info: "Cage dans L'Apprenti sorcier, Depp en Grindelwald dans Les Animaux fantastiques." },
+        { texte: "A commencé dans une série où des flics se font passer pour des lycéens", reponse: 1, info: "21 Jump Street, à la fin des années 80." },
+        { texte: "A acheté un manoir réputé hanté",               reponse: 0, info: "La maison LaLaurie, à La Nouvelle-Orléans, considérée comme l'une des plus hantées des États-Unis." }
       ]
     },
     {
-      titre: "Jeu vidéo, film, ou les deux ?",
-      options: ["Jeu vidéo", "Film", "Les deux"],
+      titre: "The Rock, Schwarzenegger, ou les deux ?",
+      options: ["The Rock", "Schwarzenegger", "Les deux"],
       items: [
-        { texte: "Rampage",           reponse: 2, info: "Un jeu d'arcade de 1986… et un film de 2018 avec Dwayne Johnson et un gorille géant." },
-        { texte: "Fortnite",          reponse: 0, info: "Pas de film (pour l'instant)." },
-        { texte: "Intouchables",      reponse: 1, info: "Pas de jeu vidéo… heureusement." },
-        { texte: "Tetris",            reponse: 2, info: "Un film de 2023 raconte comment le jeu est sorti d'URSS." },
-        { texte: "Fall Guys",         reponse: 0, info: "Juste le jeu des petits haricots qui tombent partout." },
-        { texte: "Le Dîner de cons",  reponse: 1, info: "Juste le film culte de Francis Veber." },
-        { texte: "Angry Birds",       reponse: 2, info: "Le film d'animation est sorti en 2016, et il a même eu une suite." },
-        { texte: "Stardew Valley",    reponse: 0, info: "Le jeu de ferme créé par une seule personne." },
-        { texte: "Inception",         reponse: 1, info: "Le film de Christopher Nolan n'a jamais eu de jeu vidéo." },
-        { texte: "Tron",              reponse: 2, info: "Le film et le jeu d'arcade sont sortis la même année, en 1982." }
+        { texte: "A joué Hercule",                         reponse: 2, info: "The Rock en 2014. Schwarzenegger dans son tout premier film, Hercule à New York, en 1970." },
+        { texte: "A joué un homme enceint",                reponse: 1, info: "Dans Junior, en 1994. Oui, vraiment." },
+        { texte: "A joué une fée des dents",               reponse: 0, info: "Dans Fée malgré lui, en 2010, avec tutu et ailes." },
+        { texte: "A été gouverneur de Californie",         reponse: 1, info: "De 2003 à 2011." },
+        { texte: "A fait la voix du chien de Superman",    reponse: 0, info: "Krypto, dans Krypto et les Super-Animaux." },
+        { texte: "A tourné avec Danny DeVito",             reponse: 2, info: "Schwarzenegger dans Jumeaux et Junior. The Rock dans Jumanji : Next Level." },
+        { texte: "A joué un flic infiltré dans une école maternelle", reponse: 1, info: "Un flic à la maternelle, en 1990." },
+        { texte: "A joué un demi-dieu qui chante dans un Disney", reponse: 0, info: "Maui, dans Vaiana." },
+        { texte: "A joué dans un film de Noël",            reponse: 2, info: "Schwarzenegger dans La Course au jouet. The Rock dans Red One, où il protège le Père Noël." },
+        { texte: "A gagné 7 fois le titre de Mr. Olympia", reponse: 1, info: "Le plus grand concours de culturisme du monde." }
       ]
     },
     {
-      titre: "Film Disney-Pixar, voiture, ou les deux ?",
-      options: ["Film Disney/Pixar", "Voiture", "Les deux"],
+      titre: "Personnage de Harry Potter, étoile, ou les deux ?",
+      options: ["Harry Potter", "Étoile / constellation", "Les deux"],
       items: [
-        { texte: "Soul",    reponse: 2, info: "Le film Pixar de 2020… et la Kia Soul." },
-        { texte: "Mégane",  reponse: 1, info: "Chez Renault." },
-        { texte: "Coco",    reponse: 0, info: "Pixar, 2017." },
-        { texte: "Juke",    reponse: 1, info: "Chez Nissan." },
-        { texte: "Volt",    reponse: 2, info: "« Volt, star malgré lui », le Disney de 2008… et la Chevrolet Volt, une voiture hybride." },
-        { texte: "Vaiana",  reponse: 0, info: "Disney, 2016." },
-        { texte: "Kona",    reponse: 1, info: "Chez Hyundai." },
-        { texte: "Wall-E",  reponse: 0, info: "Pixar, 2008." },
-        { texte: "Picasso", reponse: 1, info: "La Citroën Xsara Picasso. Le peintre, lui, n'a pas de film Disney." },
-        { texte: "Luca",    reponse: 0, info: "Pixar, 2021." }
+        { texte: "Sirius",      reponse: 2, info: "Le parrain de Harry… et l'étoile la plus brillante du ciel de nuit." },
+        { texte: "Bételgeuse",  reponse: 1, info: "Une énorme étoile rouge dans la constellation d'Orion." },
+        { texte: "Dobby",       reponse: 0, info: "Dobby est un elfe libre !" },
+        { texte: "Bellatrix",   reponse: 2, info: "La sorcière folle… et une étoile d'Orion. Dans la famille Black, presque tout le monde porte un nom d'étoile." },
+        { texte: "Véga",        reponse: 1, info: "Une des étoiles les plus brillantes du ciel, dans la constellation de la Lyre." },
+        { texte: "Draco",       reponse: 2, info: "Draco Malefoy… et le nom latin de la constellation du Dragon. Sa mère est une Black." },
+        { texte: "Hagrid",      reponse: 0, info: "Le garde-chasse de Poudlard." },
+        { texte: "Aldébaran",   reponse: 1, info: "L'œil rouge de la constellation du Taureau." },
+        { texte: "Andromeda",   reponse: 2, info: "Andromeda Tonks, la mère de Tonks (une Black, encore)… et la constellation d'Andromède." },
+        { texte: "Ombrage",     reponse: 0, info: "Hum hum." }
       ]
     }
   ]
